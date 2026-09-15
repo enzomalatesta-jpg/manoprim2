@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    color: rgb(0, 0, 0);
+    background-color: rgb(214, 138, 24);
+    display: flex;
+    gap: 100px;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    flex-direction:row;
+}
+    
+    header li {
+        padding: 20px;
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+   
+}
+header img {
+    width: 200px;
+    height: 90px;
+    border-radius: 50px;
+}
+body {
+    background-color: rgba(17, 12, 3, 0.589);
+}
+
+footer {
+    background-color: rgba(214, 115, 23, 0.781);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px;
+}
+.car{
+    background-color: chocolate;
+    display: flex;
+    border-radius: 10px;
+        font-size: 30px;
+    margin: 10px;
+     padding: 15px;
+     width: 32%;
+     text-align: center;
+     flex-direction: row;
+    
+}
+.car img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+.sep {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bum {
+    font-size: 50px;
+    background-color: chocolate;
+    text-align: center;
+    height: 400px;
+}
+.bum {
+    background-image: url('/assets/img/veio.png');
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 30px;
+}
+p {
+    font-size: 30px;
+}
+table, th, td {
+  border: 1px solid;
+}
+#ta {
+    text-align: center;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     font-size: 30px;
+}
