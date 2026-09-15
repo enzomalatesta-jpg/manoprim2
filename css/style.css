@@ -86,7 +86,7 @@ footer {
     height: 400px;
 }
 .bum {
-    background-image: url('/assets/img/veio.png');
+    background-image: url('../assets/img/veio.png');
 }
 h3 {
     font-size: 30px;
